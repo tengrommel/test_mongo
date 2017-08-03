@@ -10,7 +10,6 @@ import csv
 
 # 地球半径
 EARTH_RADIUS = 6372000
-# 2017-02-24T10:27:25.372Z
 
 
 item_num = {
@@ -46,23 +45,22 @@ order_collection = client['aoao_test']['biz_order']
 one_list = order_collection.find({"org_id": ObjectId("58afcf3b9982695c5aa5e18c")})
 for one in one_list:
     shop_set.add(one['consignor']['name'])
-# print(len(shop_set))
 
-# start_time = datetime(2017, 2, 26, 10, 30)
-# end_time = start_time + timedelta(hours=12)
-
-start_list = [
-    datetime(2017, 2, 21, 10, 30),
-    datetime(2017, 2, 22, 10, 30),
-    datetime(2017, 2, 23, 10, 30),
-    datetime(2017, 2, 24, 10, 30),
-    datetime(2017, 2, 25, 10, 30),
-    datetime(2017, 2, 26, 10, 30),
-    datetime(2017, 2, 27, 10, 30),
+mouth_list = [
+    datetime(2017, 7, 1, 10, 30), datetime(2017, 7, 2, 10, 30), datetime(2017, 7, 3, 10, 30), datetime(2017, 7, 4, 10, 30),
+    datetime(2017, 7, 5, 10, 30), datetime(2017, 7, 6, 10, 30), datetime(2017, 7, 7, 10, 30), datetime(2017, 7, 8, 10, 30),
+    datetime(2017, 7, 9, 10, 30), datetime(2017, 7, 10, 10, 30), datetime(2017, 7, 11, 10, 30), datetime(2017, 7, 12, 10, 30),
+    datetime(2017, 7, 13, 10, 30), datetime(2017, 7, 14, 10, 30), datetime(2017, 7, 15, 10, 30), datetime(2017, 7, 16, 10, 30),
+    datetime(2017, 7, 17, 10, 30), datetime(2017, 7, 18, 10, 30), datetime(2017, 7, 19, 10, 30), datetime(2017, 7, 20, 10, 30),
+    datetime(2017, 7, 21, 10, 30), datetime(2017, 7, 22, 10, 30), datetime(2017, 7, 23, 10, 30), datetime(2017, 7, 24, 10, 30),
+    datetime(2017, 7, 25, 10, 30), datetime(2017, 7, 26, 10, 30), datetime(2017, 7, 27, 10, 30), datetime(2017, 7, 28, 10, 30),
+    datetime(2017, 7, 29, 10, 30), datetime(2017, 7, 30, 10, 30), datetime(2017, 7, 31, 10, 30),
 ]
 
 
-shop_dict = {
+def day_func(start_list):
+    for shop in shop_set:
+        shop_dict = {
             u"a圈": {
                 "10:30-10:45": 0, "10:46-11:00": 0, "11:01-11:15": 0, "11:16-11:30": 0,
                 "11:31-11:45": 2, "11:46-12:00": 0, "12:01-12:15": 0, "12:16-12:30": 0,
@@ -105,38 +103,36 @@ shop_dict = {
                 "20:31-20:45": 0, "20:46-21:00": 0, "21:01-21:15": 0, "21:16-21:30": 0,
                 "21:31-21:45": 0, "21:46-22:00": 0, "22:01-22:15": 0, "22:16-22:30": 0,
             }
-   }
-
-
-def day_func(start_time):
-    end_time = start_time + timedelta(hours=12)
-    for shop in shop_set:
-        list_order = order_collection.find({"org_id": ObjectId("58afcf3b9982695c5aa5e18c"), "consignor.name": shop,
-                                            "created_at": {"$gt": start_time, "$lt": end_time}})
-        for list_one in list_order:
-            # print "=", list_one['created_at']
-            consignor = list_one['consignor']['bd_poi']
-            consignee = list_one['consignee']['bd_poi']
-            ret = get_beeline_distance(consignor[0], consignor[1], consignee[0], consignee[1])
-            if ret < 500:
-                num_item = (list_one['created_at'] - start_time).seconds // 900
-                shop_dict[u"a圈"][str(item_num[str(num_item)])] += 1
-            elif ret < 1500:
-                num_item = (list_one['created_at'] - start_time).seconds // 900
-                shop_dict[u"b圈"][str(item_num[str(num_item)])] += 1
-            else:
-                num_item = (list_one['created_at'] - start_time).seconds // 900
-                shop_dict[u"c圈"][str(item_num[str(num_item)])] += 1
-        # writer.writerow([str(start_time)])
+        }
+        for start_time in start_list:
+            end_time = start_time + timedelta(hours=12)
+            list_order = order_collection.find({"org_id": ObjectId("58afcf3b9982695c5aa5e18c"), "consignor.name": shop,
+                                                "created_at": {"$gt": start_time, "$lt": end_time}})
+            for list_one in list_order:
+                consignor = list_one['consignor']['bd_poi']
+                consignee = list_one['consignee']['bd_poi']
+                ret = get_beeline_distance(consignor[0], consignor[1], consignee[0], consignee[1])
+                if ret < 500:
+                    num_item = (list_one['created_at'] - start_time).seconds // 900
+                    shop_dict[u"a圈"][str(item_num[str(num_item)])] += 1
+                elif ret < 1500:
+                    num_item = (list_one['created_at'] - start_time).seconds // 900
+                    shop_dict[u"b圈"][str(item_num[str(num_item)])] += 1
+                else:
+                    num_item = (list_one['created_at'] - start_time).seconds // 900
+                    shop_dict[u"c圈"][str(item_num[str(num_item)])] += 1
+        shopfile = "./shop/{}.csv".format(shop)
+        csvFile = open(shopfile, 'w')
+        fieldnames = [u'时间', u'a圈', u'b圈', u'c圈']
+        writer = csv.DictWriter(csvFile, fieldnames=fieldnames)
+        writer.writeheader()
+        for num_item in range(48):
+            writer.writerow({u'时间': item_num[str(num_item)], u'a圈': shop_dict[u'a圈'][str(item_num[str(num_item)])],
+                             u'b圈': shop_dict[u'b圈'][str(item_num[str(num_item)])],
+                             u'c圈': shop_dict[u'c圈'][str(item_num[str(num_item)])]})
+        csvFile.close()
 
 if __name__ == '__main__':
-    csvFile = open('shop_File.csv', 'w')
-    for item_day in start_list:
-        day_func(item_day)
-    fieldnames = [u'时间', u'a圈', u'b圈', u'c圈']
-    writer = csv.DictWriter(csvFile, fieldnames=fieldnames)
-    writer.writeheader()
-    for num_item in range(48):
-        writer.writerow({u'时间': item_num[str(num_item)], u'a圈': shop_dict[u'a圈'][str(item_num[str(num_item)])], u'b圈':shop_dict[u'b圈'][str(item_num[str(num_item)])], u'c圈':shop_dict[u'c圈'][str(item_num[str(num_item)])]})
-    csvFile.close()
+    day_func(mouth_list)
+
 
