@@ -2,9 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52cb5dd9-3894-4aca-95a7-2683402d5014" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shop_File.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/distance.py" afterPath="$PROJECT_DIR$/heheStatistics_shop.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heheStatistics_shop.py" afterPath="$PROJECT_DIR$/heheStatistics_shop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/12.csv" afterPath="$PROJECT_DIR$/shop/12.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/侯利伦.csv" afterPath="$PROJECT_DIR$/shop/侯利伦.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/刘营.csv" afterPath="$PROJECT_DIR$/shop/刘营.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京三元桥店.csv" afterPath="$PROJECT_DIR$/shop/北京三元桥店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京东四店.csv" afterPath="$PROJECT_DIR$/shop/北京东四店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京东直门店.csv" afterPath="$PROJECT_DIR$/shop/北京东直门店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京中关村南路店.csv" afterPath="$PROJECT_DIR$/shop/北京中关村南路店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京丰台华堂店.csv" afterPath="$PROJECT_DIR$/shop/北京丰台华堂店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京丰台科技大道永旺梦乐城集合二店.csv" afterPath="$PROJECT_DIR$/shop/北京丰台科技大道永旺梦乐城集合二店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京五路居店.csv" afterPath="$PROJECT_DIR$/shop/北京五路居店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京京汇大厦店.csv" afterPath="$PROJECT_DIR$/shop/北京京汇大厦店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京京良路乐家店.csv" afterPath="$PROJECT_DIR$/shop/北京京良路乐家店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京公益西桥店.csv" afterPath="$PROJECT_DIR$/shop/北京公益西桥店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京凯德MALL大峡谷店.csv" afterPath="$PROJECT_DIR$/shop/北京凯德MALL大峡谷店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京北新桥店.csv" afterPath="$PROJECT_DIR$/shop/北京北新桥店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京北苑店.csv" afterPath="$PROJECT_DIR$/shop/北京北苑店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京北辰店.csv" afterPath="$PROJECT_DIR$/shop/北京北辰店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京华威店.csv" afterPath="$PROJECT_DIR$/shop/北京华威店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京双安店.csv" afterPath="$PROJECT_DIR$/shop/北京双安店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京和平里店.csv" afterPath="$PROJECT_DIR$/shop/北京和平里店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京唐人街店.csv" afterPath="$PROJECT_DIR$/shop/北京唐人街店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京回龙观店.csv" afterPath="$PROJECT_DIR$/shop/北京回龙观店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京国瑞城店.csv" afterPath="$PROJECT_DIR$/shop/北京国瑞城店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京大兴枣园店.csv" afterPath="$PROJECT_DIR$/shop/北京大兴枣园店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京大兴火神庙店.csv" afterPath="$PROJECT_DIR$/shop/北京大兴火神庙店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京大兴龙湖店.csv" afterPath="$PROJECT_DIR$/shop/北京大兴龙湖店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京太阳宫凯德店.csv" afterPath="$PROJECT_DIR$/shop/北京太阳宫凯德店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京宋家庄店.csv" afterPath="$PROJECT_DIR$/shop/北京宋家庄店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京宣武门店.csv" afterPath="$PROJECT_DIR$/shop/北京宣武门店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京富顿店.csv" afterPath="$PROJECT_DIR$/shop/北京富顿店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京小西天店.csv" afterPath="$PROJECT_DIR$/shop/北京小西天店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京师大东门店.csv" afterPath="$PROJECT_DIR$/shop/北京师大东门店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京常营陆港城店.csv" afterPath="$PROJECT_DIR$/shop/北京常营陆港城店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京平乐园店.csv" afterPath="$PROJECT_DIR$/shop/北京平乐园店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京幸福大街店.csv" afterPath="$PROJECT_DIR$/shop/北京幸福大街店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京德外店.csv" afterPath="$PROJECT_DIR$/shop/北京德外店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京总部基地店.csv" afterPath="$PROJECT_DIR$/shop/北京总部基地店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京慈云寺店.csv" afterPath="$PROJECT_DIR$/shop/北京慈云寺店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京房山华冠店.csv" afterPath="$PROJECT_DIR$/shop/北京房山华冠店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京新世界二期店.csv" afterPath="$PROJECT_DIR$/shop/北京新世界二期店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京新光天地店.csv" afterPath="$PROJECT_DIR$/shop/北京新光天地店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京新源里都汇店.csv" afterPath="$PROJECT_DIR$/shop/北京新源里都汇店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京新街口店.csv" afterPath="$PROJECT_DIR$/shop/北京新街口店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京新顺南大街店.csv" afterPath="$PROJECT_DIR$/shop/北京新顺南大街店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京方庄店.csv" afterPath="$PROJECT_DIR$/shop/北京方庄店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京昌平阳光店.csv" afterPath="$PROJECT_DIR$/shop/北京昌平阳光店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京望京店.csv" afterPath="$PROJECT_DIR$/shop/北京望京店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京来广营店.csv" afterPath="$PROJECT_DIR$/shop/北京来广营店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京松榆南路店.csv" afterPath="$PROJECT_DIR$/shop/北京松榆南路店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京永泰庄店.csv" afterPath="$PROJECT_DIR$/shop/北京永泰庄店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京汉光店.csv" afterPath="$PROJECT_DIR$/shop/北京汉光店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京汉威店.csv" afterPath="$PROJECT_DIR$/shop/北京汉威店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京海淀黄庄店.csv" afterPath="$PROJECT_DIR$/shop/北京海淀黄庄店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京海龙店.csv" afterPath="$PROJECT_DIR$/shop/北京海龙店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京燕莎店.csv" afterPath="$PROJECT_DIR$/shop/北京燕莎店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京王府井书店店.csv" afterPath="$PROJECT_DIR$/shop/北京王府井书店店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京王府井小吃街店.csv" afterPath="$PROJECT_DIR$/shop/北京王府井小吃街店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京王府井百货店.csv" afterPath="$PROJECT_DIR$/shop/北京王府井百货店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京田村店.csv" afterPath="$PROJECT_DIR$/shop/北京田村店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京百荣店.csv" afterPath="$PROJECT_DIR$/shop/北京百荣店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京翠微嘉茂店.csv" afterPath="$PROJECT_DIR$/shop/北京翠微嘉茂店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京翠微路店.csv" afterPath="$PROJECT_DIR$/shop/北京翠微路店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京良乡华冠店.csv" afterPath="$PROJECT_DIR$/shop/北京良乡华冠店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京蓝靛厂店.csv" afterPath="$PROJECT_DIR$/shop/北京蓝靛厂店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京西直门阳光店.csv" afterPath="$PROJECT_DIR$/shop/北京西直门阳光店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京财富金融中心店.csv" afterPath="$PROJECT_DIR$/shop/北京财富金融中心店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京通州罗斯福店.csv" afterPath="$PROJECT_DIR$/shop/北京通州罗斯福店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京通州贵友店.csv" afterPath="$PROJECT_DIR$/shop/北京通州贵友店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京酒仙桥店.csv" afterPath="$PROJECT_DIR$/shop/北京酒仙桥店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京酒仙桥路久隆百货CA.csv" afterPath="$PROJECT_DIR$/shop/北京酒仙桥路久隆百货CA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京酒仙桥路久隆百货LA.csv" afterPath="$PROJECT_DIR$/shop/北京酒仙桥路久隆百货LA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京金地店.csv" afterPath="$PROJECT_DIR$/shop/北京金地店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京金源店.csv" afterPath="$PROJECT_DIR$/shop/北京金源店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京长虹桥店.csv" afterPath="$PROJECT_DIR$/shop/北京长虹桥店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京长阳华冠店.csv" afterPath="$PROJECT_DIR$/shop/北京长阳华冠店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京长阳绿地店.csv" afterPath="$PROJECT_DIR$/shop/北京长阳绿地店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京阜成门万通店.csv" afterPath="$PROJECT_DIR$/shop/北京阜成门万通店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京阳光店.csv" afterPath="$PROJECT_DIR$/shop/北京阳光店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京霄云路店.csv" afterPath="$PROJECT_DIR$/shop/北京霄云路店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京青塔店.csv" afterPath="$PROJECT_DIR$/shop/北京青塔店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京顺义双兴店.csv" afterPath="$PROJECT_DIR$/shop/北京顺义双兴店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京顺义国泰店.csv" afterPath="$PROJECT_DIR$/shop/北京顺义国泰店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京马家堡银泰店.csv" afterPath="$PROJECT_DIR$/shop/北京马家堡银泰店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京马甸店.csv" afterPath="$PROJECT_DIR$/shop/北京马甸店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京马连道店.csv" afterPath="$PROJECT_DIR$/shop/北京马连道店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/北京高米店南店.csv" afterPath="$PROJECT_DIR$/shop/北京高米店南店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/华威嘉和面店.csv" afterPath="$PROJECT_DIR$/shop/华威嘉和面店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/周婷.csv" afterPath="$PROJECT_DIR$/shop/周婷.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/和合谷(东城区新世界店).csv" afterPath="$PROJECT_DIR$/shop/和合谷(东城区新世界店).csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/和合谷(丰台区宋家庄店).csv" afterPath="$PROJECT_DIR$/shop/和合谷(丰台区宋家庄店).csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/和合谷(大兴区京良路乐家店).csv" afterPath="$PROJECT_DIR$/shop/和合谷(大兴区京良路乐家店).csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/和合谷(西城区华威店).csv" afterPath="$PROJECT_DIR$/shop/和合谷(西城区华威店).csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/和合谷(顺义区新顺南大街店).csv" afterPath="$PROJECT_DIR$/shop/和合谷(顺义区新顺南大街店).csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/和合谷-信息管理系统(周老师店).csv" afterPath="$PROJECT_DIR$/shop/和合谷-信息管理系统(周老师店).csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/和合谷-信息管理系统(朝阳区太阳宫凯德店).csv" afterPath="$PROJECT_DIR$/shop/和合谷-信息管理系统(朝阳区太阳宫凯德店).csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/哈根达斯北京五棵松店.csv" afterPath="$PROJECT_DIR$/shop/哈根达斯北京五棵松店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/哈根达斯北京公主坟店.csv" afterPath="$PROJECT_DIR$/shop/哈根达斯北京公主坟店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/哈根达斯北京华星店.csv" afterPath="$PROJECT_DIR$/shop/哈根达斯北京华星店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/张三.csv" afterPath="$PROJECT_DIR$/shop/张三.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/张国慧.csv" afterPath="$PROJECT_DIR$/shop/张国慧.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/张拥平.csv" afterPath="$PROJECT_DIR$/shop/张拥平.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/李道来.csv" afterPath="$PROJECT_DIR$/shop/李道来.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/果时汇崇文门店.csv" afterPath="$PROJECT_DIR$/shop/果时汇崇文门店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/河北燕郊新世界店.csv" afterPath="$PROJECT_DIR$/shop/河北燕郊新世界店.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/王相勇.csv" afterPath="$PROJECT_DIR$/shop/王相勇.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop/顾金文.csv" afterPath="$PROJECT_DIR$/shop/顾金文.csv" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +121,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/test$distance.coverage" NAME="distance Coverage Results" MODIFIED="1501771267966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$distance.coverage" NAME="distance Coverage Results" MODIFIED="1501773574799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -31,8 +135,8 @@
       <file leaf-file-name="heheStatistics_shop.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heheStatistics_shop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -60,7 +164,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -87,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -111,8 +213,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,8 +518,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -409,10 +527,10 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47740114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4763889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33050847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -442,14 +560,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/heheStatistics_shop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="140" column="44" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop_File.csv">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -458,29 +568,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heheStatistics_shop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2100">
+          <caret line="140" column="44" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop_File.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop_File.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/和合谷-信息管理系统(周老师店).csv">
+    <entry file="file://$PROJECT_DIR$/shop_File.csv" />
+    <entry file="file://$PROJECT_DIR$/heheStatistics_shop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -488,43 +583,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/侯利伦.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/哈根达斯北京五棵松店.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/张三.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/shop_File.csv" />
+    <entry file="file://$PROJECT_DIR$/shop_File.csv" />
+    <entry file="file://$PROJECT_DIR$/和合谷-信息管理系统(周老师店).csv" />
+    <entry file="file://$PROJECT_DIR$/侯利伦.csv" />
+    <entry file="file://$PROJECT_DIR$/哈根达斯北京五棵松店.csv" />
+    <entry file="file://$PROJECT_DIR$/张三.csv" />
+    <entry file="file://$PROJECT_DIR$/12.csv" />
     <entry file="file://$PROJECT_DIR$/shop/北京田村店.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,14 +608,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-483">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/北京顺义双兴店.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/北京高米店南店.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/heheStatistics_shop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state relative-caret-position="245">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding />
         </state>
       </provider>
