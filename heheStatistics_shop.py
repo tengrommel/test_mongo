@@ -125,4 +125,4 @@ def day_func(start_list):
         csvFile.close()
 
 if __name__ == '__main__':
-    day_func(mouth_list)
+    day_func(start_list)

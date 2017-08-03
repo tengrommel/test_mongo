@@ -35,3 +35,5 @@ db.biz_order.find({"org_id":ObjectId("58afcf3b9982695c5aa5e18c")}).pretty()
     return int(round(distance))
 
 '''
+
+mongodb://db1/aoao_test
