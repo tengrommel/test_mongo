@@ -46,12 +46,17 @@ order_collection = client['aoao_test']['biz_order']
 one_list = order_collection.find({"org_id": ObjectId("58afcf3b9982695c5aa5e18c")})
 for one in one_list:
     shop_set.add(one['consignor']['name'])
-print(len(shop_set))
+# print(len(shop_set))
 
 # start_time = datetime(2017, 2, 26, 10, 30)
 # end_time = start_time + timedelta(hours=12)
 
 start_list = [
+    datetime(2017, 2, 21, 10, 30),
+    datetime(2017, 2, 22, 10, 30),
+    datetime(2017, 2, 23, 10, 30),
+    datetime(2017, 2, 24, 10, 30),
+    datetime(2017, 2, 25, 10, 30),
     datetime(2017, 2, 26, 10, 30),
     datetime(2017, 2, 27, 10, 30),
     # datetime(2017, 7, 9, 10, 30),
@@ -135,8 +140,7 @@ if __name__ == '__main__':
     writer_ex = csv.writer(csvFile)
     for item_day in start_list:
         day_func(item_day)
-    csvFile.close()
     for key in shop_dict:
         writer_ex.writerow([key, shop_dict[key]])
-
+    csvFile.close()
 
