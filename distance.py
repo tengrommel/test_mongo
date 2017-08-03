@@ -62,11 +62,10 @@ start_list = [
 ]
 
 
-
 shop_dict = {
             u"a圈": {
                 "10:30-10:45": 0, "10:46-11:00": 0, "11:01-11:15": 0, "11:16-11:30": 0,
-                "11:31-11:45": 0, "11:46-12:00": 0, "12:01-12:15": 0, "12:16-12:30": 0,
+                "11:31-11:45": 2, "11:46-12:00": 0, "12:01-12:15": 0, "12:16-12:30": 0,
                 "12:31-12:45": 0, "12:46-13:00": 0, "13:01-13:15": 0, "13:16-13:30": 0,
                 "13:31-13:45": 0, "13:46-14:00": 0, "14:01-14:15": 0, "14:16-14:30": 0,
                 "14:31-14:45": 0, "14:46-15:00": 0, "15:01-15:15": 0, "15:16-15:30": 0,
@@ -132,10 +131,12 @@ def day_func(start_time):
 
 if __name__ == '__main__':
     csvFile = open('shop_File.csv', 'w')
-    writer_ex = csv.writer(csvFile)
     for item_day in start_list:
         day_func(item_day)
-    for key in shop_dict:
-        writer_ex.writerow([key, shop_dict[key]])
+    fieldnames = [u'时间', u'a圈', u'b圈', u'c圈']
+    writer = csv.DictWriter(csvFile, fieldnames=fieldnames)
+    writer.writeheader()
+    for num_item in range(48):
+        writer.writerow({u'时间': item_num[str(num_item)], u'a圈': shop_dict[u'a圈'][str(item_num[str(num_item)])], u'b圈':shop_dict[u'b圈'][str(item_num[str(num_item)])], u'c圈':shop_dict[u'c圈'][str(item_num[str(num_item)])]})
     csvFile.close()
 
