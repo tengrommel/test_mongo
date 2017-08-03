@@ -52,13 +52,28 @@ for one in one_list:
 # end_time = start_time + timedelta(hours=12)
 
 start_list = [
-    datetime(2017, 2, 21, 10, 30),
-    datetime(2017, 2, 22, 10, 30),
-    datetime(2017, 2, 23, 10, 30),
+    datetime(2017, 2, 1, 10, 30), datetime(2017, 2, 2, 10, 30), datetime(2017, 2, 3, 10, 30),
+    datetime(2017, 2, 4, 10, 30),
+    datetime(2017, 2, 5, 10, 30), datetime(2017, 2, 6, 10, 30), datetime(2017, 2, 7, 10, 30),
+    datetime(2017, 2, 8, 10, 30),
+    datetime(2017, 2, 9, 10, 30), datetime(2017, 2, 10, 10, 30), datetime(2017, 2, 11, 10, 30),
+    datetime(2017, 2, 12, 10, 30),
+    datetime(2017, 2, 13, 10, 30), datetime(2017, 2, 14, 10, 30), datetime(2017, 2, 15, 10, 30),
+    datetime(2017, 2, 16, 10, 30),
+    datetime(2017, 2, 17, 10, 30), datetime(2017, 2, 18, 10, 30), datetime(2017, 2, 19, 10, 30),
+    datetime(2017, 2, 20, 10, 30),
+    datetime(2017, 2, 21, 10, 30), datetime(2017, 2, 22, 10, 30), datetime(2017, 2, 23, 10, 30),
     datetime(2017, 2, 24, 10, 30),
-    datetime(2017, 2, 25, 10, 30),
-    datetime(2017, 2, 26, 10, 30),
-    datetime(2017, 2, 27, 10, 30),
+    datetime(2017, 2, 25, 10, 30), datetime(2017, 2, 26, 10, 30), datetime(2017, 2, 27, 10, 30),
+    datetime(2017, 2, 28, 10, 30),
+    # datetime(2017, 7, 1, 10, 30), datetime(2017, 7, 2, 10, 30), datetime(2017, 7, 3, 10, 30), datetime(2017, 7, 4, 10, 30),
+    # datetime(2017, 7, 5, 10, 30), datetime(2017, 7, 6, 10, 30), datetime(2017, 7, 7, 10, 30), datetime(2017, 7, 8, 10, 30),
+    # datetime(2017, 7, 9, 10, 30), datetime(2017, 7, 10, 10, 30), datetime(2017, 7, 11, 10, 30), datetime(2017, 7, 12, 10, 30),
+    # datetime(2017, 7, 13, 10, 30), datetime(2017, 7, 14, 10, 30), datetime(2017, 7, 15, 10, 30), datetime(2017, 7, 16, 10, 30),
+    # datetime(2017, 7, 17, 10, 30), datetime(2017, 7, 18, 10, 30), datetime(2017, 7, 19, 10, 30), datetime(2017, 7, 20, 10, 30),
+    # datetime(2017, 7, 21, 10, 30), datetime(2017, 7, 22, 10, 30), datetime(2017, 7, 23, 10, 30), datetime(2017, 7, 24, 10, 30),
+    # datetime(2017, 7, 25, 10, 30), datetime(2017, 7, 26, 10, 30), datetime(2017, 7, 27, 10, 30), datetime(2017, 7, 28, 10, 30),
+    # datetime(2017, 7, 29, 10, 30), datetime(2017, 7, 30, 10, 30), datetime(2017, 7, 31, 10, 30),
 ]
 
 
