@@ -1,0 +1,37 @@
+'''
+db.biz_order.find
+"org_id":ObjectId("58afcf3b9982695c5aa5e18c")
+db.biz_order.find({"org_id":ObjectId("58afcf3b9982695c5aa5e18c")}).pretty()
+1.生成门店信息列表 根据consignor姓名
+"consignor" : {
+		"name" : "尉广龙",
+		"mobile" : "",
+		"tel" : "52594206",
+		"city_code" : "110000",
+		"city_name" : "北京市",
+		"address" : "北京市房山区长阳镇绿地缤纷城一层",
+		"address_detail" : "",
+		"bd_poi" : [
+			116.167262,
+			39.762747
+		]
+	}
+  "org_id":ObjectId("58afcf3b9982695c5aa5e18c")
+
+  生成列表csv文件
+2.生成列表
+
+  时间 过滤
+  created_at
+
+  距离 过滤
+  def get_beeline_distance(src_lng, src_lat, dst_lng, dst_lat):
+    dx = src_lng - dst_lng  # 经度差值
+    dy = src_lat - dst_lat  # 差值纬度
+    b = (src_lat + dst_lat) / 2.0  # 平均纬度
+    Lx = math.radians(dx) * EARTH_RADIUS * math.cos(math.radians(b))  # 东西距离
+    Ly = EARTH_RADIUS * math.radians(dy)  # 南北距离
+    distance = math.sqrt(Lx * Lx + Ly * Ly)  # 用平面的矩形对角距离公式计算总距离
+    return int(round(distance))
+
+'''
