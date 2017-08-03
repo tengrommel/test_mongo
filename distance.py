@@ -52,24 +52,18 @@ print(len(shop_set))
 # end_time = start_time + timedelta(hours=12)
 
 start_list = [
-    datetime(2017, 7, 7, 10, 30),
-    datetime(2017, 7, 8, 10, 30),
-    datetime(2017, 7, 9, 10, 30),
-    datetime(2017, 7, 10, 10, 30),
-    datetime(2017, 7, 11, 10, 30),
-    datetime(2017, 7, 12, 10, 30),
-    datetime(2017, 7, 13, 10, 30),
+    datetime(2017, 2, 26, 10, 30),
+    datetime(2017, 2, 27, 10, 30),
+    # datetime(2017, 7, 9, 10, 30),
+    # datetime(2017, 7, 10, 10, 30),
+    # datetime(2017, 7, 11, 10, 30),
+    # datetime(2017, 7, 12, 10, 30),
+    # datetime(2017, 7, 13, 10, 30),
 ]
 
 
-def day_func(start_time, writer):
-    end_time = start_time + timedelta(hours=12)
-    for shop in shop_set:
-        # shop_item = dict()
-        # 生成店铺集合
-        num_distance = {
-            "shop": shop,
-            "date": start_time,
+
+shop_dict = {
             u"a圈": {
                 "10:30-10:45": 0, "10:46-11:00": 0, "11:01-11:15": 0, "11:16-11:30": 0,
                 "11:31-11:45": 0, "11:46-12:00": 0, "12:01-12:15": 0, "12:16-12:30": 0,
@@ -112,8 +106,12 @@ def day_func(start_time, writer):
                 "20:31-20:45": 0, "20:46-21:00": 0, "21:01-21:15": 0, "21:16-21:30": 0,
                 "21:31-21:45": 0, "21:46-22:00": 0, "22:01-22:15": 0, "22:16-22:30": 0,
             }
-        }
+   }
 
+
+def day_func(start_time, writer):
+    end_time = start_time + timedelta(hours=12)
+    for shop in shop_set:
         list_order = order_collection.find({"org_id": ObjectId("58afcf3b9982695c5aa5e18c"), "consignor.name": shop,
                                             "created_at": {"$gt": start_time, "$lt": end_time}})
         for list_one in list_order:
@@ -123,20 +121,19 @@ def day_func(start_time, writer):
             ret = get_beeline_distance(consignor[0], consignor[1], consignee[0], consignee[1])
             if ret < 500:
                 num_item = (list_one['created_at'] - start_time).seconds // 900
-                num_distance[u"a圈"][str(item_num[str(num_item)])] += 1
+                shop_dict[u"a圈"][str(item_num[str(num_item)])] += 1
             elif ret < 1500:
                 num_item = (list_one['created_at'] - start_time).seconds // 900
-                num_distance[u"b圈"][str(item_num[str(num_item)])] += 1
+                shop_dict[u"b圈"][str(item_num[str(num_item)])] += 1
             else:
                 num_item = (list_one['created_at'] - start_time).seconds // 900
-                num_distance[u"c圈"][str(item_num[str(num_item)])] += 1
-        print num_distance['shop']
-        writer.writerow([str(start_time)])
-        for key in num_distance:
-            writer.writerow([key, num_distance[key]])
+                shop_dict[u"c圈"][str(item_num[str(num_item)])] += 1
+        # writer.writerow([str(start_time)])
+    for key in shop_dict:
+        writer.writerow([key, shop_dict[key]])
 
 if __name__ == '__main__':
-    csvFile = open('csvFile.csv', 'w')
+    csvFile = open('shop_File.csv', 'w')
     writer_ex = csv.writer(csvFile)
     for item_day in start_list:
         day_func(item_day, writer_ex)
