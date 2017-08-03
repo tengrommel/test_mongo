@@ -109,7 +109,7 @@ shop_dict = {
    }
 
 
-def day_func(start_time, writer):
+def day_func(start_time):
     end_time = start_time + timedelta(hours=12)
     for shop in shop_set:
         list_order = order_collection.find({"org_id": ObjectId("58afcf3b9982695c5aa5e18c"), "consignor.name": shop,
@@ -129,13 +129,14 @@ def day_func(start_time, writer):
                 num_item = (list_one['created_at'] - start_time).seconds // 900
                 shop_dict[u"c圈"][str(item_num[str(num_item)])] += 1
         # writer.writerow([str(start_time)])
-    for key in shop_dict:
-        writer.writerow([key, shop_dict[key]])
 
 if __name__ == '__main__':
     csvFile = open('shop_File.csv', 'w')
     writer_ex = csv.writer(csvFile)
     for item_day in start_list:
-        day_func(item_day, writer_ex)
+        day_func(item_day)
     csvFile.close()
+    for key in shop_dict:
+        writer_ex.writerow([key, shop_dict[key]])
+
 
