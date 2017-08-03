@@ -39,16 +39,16 @@ def get_beeline_distance(src_lng, src_lat, dst_lng, dst_lat):
 
 
 shop_set = set()
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://db1/aoao_test')
 
 order_collection = client['aoao_test']['biz_order']
 one_list = order_collection.find({"org_id": ObjectId("58afcf3b9982695c5aa5e18c")})
 for one in one_list:
     shop_set.add(one['consignor']['name'])
 
-start_list = [datetime(2017, 2, x, 10, 30) for x in range(1, 29)]
+# start_list = [datetime(2017, 2, x, 10, 30) for x in range(1, 29)]
 
-# real_list = [datetime(2017, 7, x, 10, 30) for x in range(1, 32)]
+real_list = [datetime(2017, 7, x, 10, 30) for x in range(1, 32)]
 
 def day_func(start_list):
     for shop in shop_set:
@@ -113,6 +113,7 @@ def day_func(start_list):
                 else:
                     num_item = (list_one['created_at'] - start_time).seconds // 900
                     shop_dict[u"c圈"][str(item_num[str(num_item)])] += 1
+        shop = shop.replace('/', '')
         shopfile = "./shop/{}.csv".format(shop)
         csvFile = open(shopfile, 'w')
         fieldnames = [u'时间', u'a圈', u'b圈', u'c圈']
@@ -125,4 +126,4 @@ def day_func(start_list):
         csvFile.close()
 
 if __name__ == '__main__':
-    day_func(start_list)
+    day_func(real_list)
