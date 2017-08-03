@@ -52,12 +52,6 @@ print(len(shop_set))
 # end_time = start_time + timedelta(hours=12)
 
 start_list = [
-    # datetime(2017, 7, 1, 10, 30),
-    # datetime(2017, 7, 2, 10, 30),
-    # datetime(2017, 7, 3, 10, 30),
-    # datetime(2017, 7, 4, 10, 30),
-    # datetime(2017, 7, 5, 10, 30),
-    # datetime(2017, 7, 6, 10, 30),
     datetime(2017, 7, 7, 10, 30),
     datetime(2017, 7, 8, 10, 30),
     datetime(2017, 7, 9, 10, 30),
