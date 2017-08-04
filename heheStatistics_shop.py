@@ -113,7 +113,7 @@ def day_func(start_list):
                 else:
                     num_item = (list_one['created_at'] - start_time).seconds // 900
                     shop_dict[u"c圈"][str(item_num[str(num_item)])] += 1
-        shop = shop.replace('/', '')
+        shop = shop.replace('/', '_')
         shopfile = "./shop/{}.csv".format(shop)
         csvFile = open(shopfile, 'w')
         fieldnames = [u'时间', u'a圈', u'b圈', u'c圈']
